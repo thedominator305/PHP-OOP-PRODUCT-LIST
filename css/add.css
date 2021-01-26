@@ -1,0 +1,105 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+  
+  /* Main Container */
+  .main-container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  
+/* Header **/
+  header{
+    background:#f4f4f4;
+    color:black;
+    padding-top:30px;
+    min-height:70px;
+  }
+
+  header ul{
+    margin:0;
+    padding:0;
+  }
+
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #product-add{
+    float:left;
+  }
+
+  header #product-add h1{
+    margin:0;
+  }
+
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+
+/* Boxes */
+
+  #boxes{
+    margin-top:20px;
+    margin-left:10px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width:300px;
+    padding:25px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+  
+  #boxes .box img{ 
+    width:90px;
+   }
+
+  #boxes .box .checkbox{
+     float: left; 
+    }
+
+  .button{
+    height:38px;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  
+  .select{
+    height:38px;
+    background: #f4f4f4;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+
+  .mass{
+     margin-top: 10px;
+  }
+
+    /* Inputs */
+    
+  .sku{    margin-left: 63px; }
+  .name{   margin-left: 50px; }
+  .price{  margin-left: 48px; }
+  .size{   margin-left: 48px; }
+  .height{ margin-left: 46px; }
+  .width{  margin-left: 51px; }
+  .length{ margin-left: 44px; }
+  .weight{ margin-left: 46px; }
